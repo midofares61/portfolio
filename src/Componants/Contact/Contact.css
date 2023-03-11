@@ -1,0 +1,62 @@
+.contact {
+    margin-top: 10rem;
+    height: 90vh;
+    position: relative;
+
+}
+
+.text {
+    flex-basis: 50%;
+}
+
+.text span:first-child {
+    color: var(--black);
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+}
+
+.text span:nth-child(2) {
+    color: var(--orange);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact .user {
+    width: 25rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 6rem !important;
+}
+
+.contact button {
+    margin-top: 10px;
+}
+
+@media(max-width:767px) {
+    .contacts {
+        flex-direction: column;
+        gap: 50px 0;
+        text-align: center;
+
+    }
+
+    .contact .user {
+        width: 19rem;
+    }
+
+}

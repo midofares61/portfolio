@@ -1,0 +1,64 @@
+.experianc {
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 30vh;
+    margin-bottom: 5rem;
+    margin-top: 12rem;
+
+}
+
+.experianc .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experianc .box .circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.circle::before {
+    content: "";
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom, #87e6fb, #ffc05c 100%);
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+    animation: circle 1.5s linear infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.experianc .box>span:last-child {
+    color: var(--orange);
+}
+
+@media (max-width:767px) {
+    .experianc {
+        gap: 3rem;
+        margin-top: 40rem;
+    }
+}

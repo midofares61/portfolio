@@ -1,0 +1,32 @@
+.Portofolio .container {
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.Portofolio span:first-child {
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.Portofolio span:nth-child(2) {
+    color: var(--orange);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.Portofolio .Swiper {
+    overflow: visible !important;
+}
+
+.Portfolio-slider {
+    margin: 3rem;
+    width: 100%;
+}
+
+.Portofolio img {
+    width: 27rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
