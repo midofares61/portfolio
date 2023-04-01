@@ -7,6 +7,7 @@
   margin-bottom: 13rem;
   /* scroll view */
   padding-top: 3rem;
+
 }
 
 /* left side */
@@ -44,6 +45,7 @@
 /* right sided */
 .cards {
   position: relative;
+
 }
 
 .cards>* {
@@ -71,23 +73,21 @@
     text-align: center;
   }
 
-
-
   .cards {
     display: flex;
     flex-direction: column;
     gap: 24rem;
-
-
+    justify-content: center;
   }
 
   .cards>* {
-    position: static;
-
+    position: relative;
+    left: 0 !important;
+    top: 0 !important;
   }
 
   .cards .card {
     height: 358px !important;
-    width: 90%;
   }
+
 }

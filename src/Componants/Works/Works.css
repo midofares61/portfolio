@@ -3,7 +3,7 @@
   display: flex;
   height: 90vh;
   margin-top: 4rem;
-
+  overflow: hidden;
   /* scroll */
   align-items: center;
 }

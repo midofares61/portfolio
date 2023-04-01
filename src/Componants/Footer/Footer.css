@@ -26,4 +26,8 @@
   .f-content {
     transform: scale(.5);
   }
+
+  .footer img {
+    height: 250px;
+  }
 }

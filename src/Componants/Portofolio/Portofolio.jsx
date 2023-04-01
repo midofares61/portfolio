@@ -23,16 +23,16 @@ function Portofolio(){
                 className="Portfolio-slider"
                 >
                     <SwiperSlide>
-                        <img src={slide_1} alt="" />
+                        <a href="https://midofares61.github.io/netflix/"><img src={slide_1} alt="" /></a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={slide_2} alt="" />
+                        <a href="https://obsups-2.netlify.app/"><img src={slide_2} alt="" /></a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={slide_3} alt="" />
+                        <a href="https://midofares61.github.io/Mizo/"><img src={slide_4} alt="" /></a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={slide_4} alt="" />
+                        <a href="https://midofares61.github.io/casper/"><img src={slide_3} alt="" /></a>
                     </SwiperSlide>
                 </Swiper>
                 </div>

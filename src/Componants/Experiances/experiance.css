@@ -59,6 +59,6 @@
 @media (max-width:767px) {
     .experianc {
         gap: 3rem;
-        margin-top: 40rem;
+        max-width: 100%;
     }
 }
